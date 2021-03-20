@@ -17,7 +17,10 @@ require_once 'Akulov/MyLog.php';
 require_once 'Akulov/AkulovException.php';*/
 
 try {
-    
+    if(!is_dir("log")) {
+        mkdir("log", 0700);
+    }
+	
 	akulov\MyLog::log("Версия программы: " . trim(file_get_contents('version')) );
 
     echo "Введите 3 числа через Enter\n\r";
