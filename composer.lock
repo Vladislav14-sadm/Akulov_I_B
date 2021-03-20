@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f233109768a2bfbd6329c051588859ac",
+    "content-hash": "17f4245eacd8736aed7c435e7efea65b",
     "packages": [
         {
             "name": "rok9ru/trpo-core",
@@ -33,12 +33,12 @@
             "time": "2021-01-13T12:08:11+00:00"
         },
         {
-            "name": "vlad/akulov",
-            "version": "2.0",
+            "name": "vladislav14-sadm/akulov_my",
+            "version": "2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Vladislav14-sadm/Akulov_MY.git",
-                "reference": "99df77dc1b60d12481db46e78827dc89556b204f"
+                "reference": "606f2b5888aaa1c9eaab1531c4b50f3ea42a3e3d"
             },
             "require": {
                 "rok9ru/trpo-core": "2.0"
@@ -59,7 +59,7 @@
                 }
             ],
             "description": "akulov",
-            "time": "2021-03-17T18:01:36+00:00"
+            "time": "2021-03-20T07:26:32+00:00"
         }
     ],
     "packages-dev": [],

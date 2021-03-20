@@ -1,5 +1,5 @@
 {
-  "name": "project/akulov",
+  "name": "vladislav14-sadm/akulov_i_b",
   "description": "project-akulov",
   "type": "project",
   "license": "-",
@@ -13,14 +13,9 @@
   "minimum-stability": "dev",
 
   "require": {
-    "vlad/akulov": "2.0"
+    "vladislav14-sadm/akulov_my": "2.1"
   },
 
-  "autoload":{
-    "psr-4":{
-      "akulov_library\\": "akulov_library"
-    }
-  },
 
   "repositories": [
     {
