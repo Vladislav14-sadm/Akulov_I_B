@@ -26,6 +26,11 @@
       "type": "git",
       "url": "https://github.com/Vladislav14-sadm/Akulov_MY.git"
     }
-  ]
+  ],
+ 
+  "scripts": {
+    "post-update-cmd": [
+        "git symbolic-ref --short -q HEAD>version"
+    ]
 }
-
+}
